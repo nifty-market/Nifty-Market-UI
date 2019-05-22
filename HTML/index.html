@@ -5,49 +5,98 @@
     <meta charset="uf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Nifty Markets</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Saira:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira&display=swap" rel="stylesheet">
     <link href="/CSS/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <script src="/JS/index.js"></script>
 
 </head>
 
 <body>
     <header>
-        <i class="fas fa-box-open">Nifty Markets</i>
-        <nav>
-            <a href='#'>Login</a>
-            <a href='/HTML/about.html'>About Us</a>
-            <a href='/HTML/about.html'>Contact</a>
+        <nav class="nav">
+            <div class="logo">
+                <img src="/images/NMLogo.png"></img>
+            </div>
+            <div class="links">
+                <a href='#'>Login</a>
+                <a href='/HTML/about.html'>About Us</a>
+                <a href='/HTML/about.html'>Contact</a>
+            </div>
         </nav>
     </header>
     <div class="container">
         <div class="sign-up">
             <div class="sign-up-left">
-                <div class="carousel">
-
+                <div class="slider">
+                    <div class="slide current">
+                        <!-- <div class="content">
+                            <h1>Slide One</h1>
+                            <p>A new film is currently in production, and a killer is on the loose.
+                                The murders draw a reporter, ex-cop, and young woman to the set of the movie inspired by
+                                their
+                                life.
+                                They soon find out that they are dealing with a trilogy, and in a trilogy...anything can
+                                happen.</p>
+                        </div> -->
+                    </div>
+                    <div class="slide">
+                        <!-- <div class="content">
+                            <h1>Slide Two</h1>
+                            <p>A new film is currently in production, and a killer is on the loose.
+                                The murders draw a reporter, ex-cop, and young woman to the set of the movie inspired by
+                                their
+                                life.
+                                They soon find out that they are dealing with a trilogy, and in a trilogy...anything can
+                                happen.</p>
+                        </div> -->
+                    </div>
+                    <div class="slide">
+                        <!-- <div class="content">
+                            <h1>Slide Three</h1>
+                            <p>A new film is currently in production, and a killer is on the loose.
+                                The murders draw a reporter, ex-cop, and young woman to the set of the movie inspired by
+                                their
+                                life.
+                                They soon find out that they are dealing with a trilogy, and in a trilogy...anything can
+                                happen.</p>
+                        </div> -->
+                    </div>
+                    <div class="slide">
+                        <!-- <div class="content">
+                            <h1>Slide Four</h1>
+                            <p>A new film is currently in production, and a killer is on the loose.
+                                The murders draw a reporter, ex-cop, and young woman to the set of the movie inspired by
+                                their
+                                life.
+                                They soon find out that they are dealing with a trilogy, and in a trilogy...anything can
+                                happen.</p>
+                        </div> -->
+                    </div>
                 </div>
+                <div class="buttons"></div>
+                <button id="prev"><i class="fas fa-arrow-left"></i></button>
+                <button id="next"><i class="fas fa-arrow-right"></i></button>
 
             </div>
             <div class="sign-up-right">
                 <form class="signup-form">
-                    <h1>Sign Up</h1>
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <h1>Sign Up</h1><br>
+                    <label for="email"><b>Email</b></label><br>
+                    <input type="text" placeholder="Enter Email" name="email" required><br>
 
-                    <label for="username"><b>Username</b></label>
-                    <input type="username" placeholder="Enter Username" name="username" required>
+                    <label for="username"><b>Username</b></label><br>
+                    <input type="username" placeholder="Enter Username" name="username" required><br>
 
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label for="psw"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="psw" required><br>
 
                     <label>
                         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-                    </label>
+                    </label><br>
 
                     <p>By creating an account you agree to our <a href="#" style="color:#F37748">Terms & Privacy</a>.
-                    </p>
+                    </p><br>
 
                     <div class="submit">
                         <button type="submit" class="signupbtn">Sign Up</button>
@@ -65,9 +114,6 @@
                         and her friends started experiencing some strange phone calls.
                         They later learned the calls were coming from a crazed serial killer,
                         in a white faced mask and a large black robe, looking for revenge.
-                        His phone calls usually consist of many questions, the main one being:
-                        Whats your favorite scary movie? Along with many scary movie trivia,
-                        ending with bloody pieces of innocent lives scattered around the small town of Woodsboro.
 
 
                     </p>
@@ -101,6 +147,7 @@
             </div>
         </div>
     </div>
+    <hr>
     <div class="products">
         <div class="products-left">
             <div class="products-left-title">
@@ -111,9 +158,6 @@
                     and her friends started experiencing some strange phone calls.
                     They later learned the calls were coming from a crazed serial killer,
                     in a white faced mask and a large black robe, looking for revenge.
-                    His phone calls usually consist of many questions, the main one being:
-                    Whats your favorite scary movie? Along with many scary movie trivia,
-                    ending with bloody pieces of innocent lives scattered around the small town of Woodsboro.
 
 
                 </p>
@@ -152,5 +196,6 @@
     </footer>
 
 </body>
+<script src="/JS/index.js"></script>
 
 </html>

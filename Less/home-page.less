@@ -1,8 +1,214 @@
 body {
     background-color: @darkblue;
+    font-family: 'Saira', sans-serif;
+    color: #F37748;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+    .nav {
+
+        display: flex;
+        justify-content: space-around;
+        background-color: #FFFBF7;
+
+
+        .links {
+            display: flex;
+            text-decoration: none;
+            justify-content: space-around;
+
+            a {
+                margin-right: 60px;
+                font-size: 1.5rem;
+                margin-top: 7%;
+                text-decoration: none;
+
+            }
+        }
+    }
+
+    h1 {
+        font-size: 1.8rem
+    }
 
     i {
         color: @orange
     }
 
+    hr {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .sign-up {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 10%;
+        padding-top: 20px;
+
+        .sign-up-left {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .sign-up-right {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+
+            .signup-form {
+                input {
+                    margin-bottom: 18%;
+                    margin-top: 5%;
+                }
+
+                h1 {
+                    margin-bottom: 17%;
+                }
+
+            }
+        }
+    }
+
+
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 10%;
+
+        .info-left {
+            display: flex;
+            flex-direction: column;
+            border-style: solid;
+            border-width: medium;
+            width: 100%;
+            margin-right: 8%;
+
+
+            .info-left-title {
+                margin-bottom: 10%;
+                margin-top: 10%;
+            }
+
+            .info-left-text {
+                margin-bottom: 10%;
+                padding: 10%
+            }
+
+
+        }
+
+        .info-mid {
+            display: flex;
+            flex-direction: column;
+            border-style: solid;
+            border-width: medium;
+            width: 100%;
+
+
+            .info-mid-title {
+                margin-bottom: 10%;
+                margin-top: 10%;
+
+            }
+
+            .info-mid-text {
+                margin-bottom: 10%;
+                padding: 10%
+            }
+        }
+
+        .info-right {
+            display: flex;
+            flex-direction: column;
+
+            border-style: solid;
+            border-width: medium;
+            width: 100%;
+            margin-left: 8%;
+
+
+
+            .info-right-title {
+                margin-bottom: 10%;
+                margin-top: 10%;
+            }
+
+            .info-right-text {
+                margin-bottom: 10%;
+                padding: 10%
+            }
+        }
+    }
+
+    .products {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 10%;
+
+        .products-left {
+            display: flex;
+            flex-direction: column;
+            border-style: solid;
+            border-width: medium;
+            width: 100%;
+            margin-right: 8%;
+
+
+            .products-left-title {
+                margin-bottom: 10%;
+                margin-top: 10%;
+            }
+
+            .products-left-text {
+                margin-bottom: 10%;
+                padding: 10%
+            }
+        }
+
+        .products-mid {
+            display: flex;
+            flex-direction: column;
+            border-style: solid;
+            border-width: medium;
+            width: 100%;
+
+
+            .products-mid-title {
+                margin-bottom: 10%;
+                margin-top: 10%;
+            }
+
+            .products-mid-text {
+                margin-bottom: 10%;
+                padding: 10%
+            }
+        }
+
+        .products-right {
+            display: flex;
+            flex-direction: column;
+            border-style: solid;
+            border-width: medium;
+            width: 100%;
+            margin-left: 8%;
+
+            .products-right-title {
+                margin-bottom: 10%;
+                margin-top: 10%;
+            }
+
+            .products-right-text {
+                margin-bottom: 10%;
+                padding: 10%
+            }
+        }
+    }
 }
