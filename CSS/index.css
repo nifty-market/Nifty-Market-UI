@@ -90,7 +90,6 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,21 +104,17 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -127,53 +122,44 @@ q:after {
   content: '';
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 body {
   background-color: #002649;
   font-family: 'Saira', sans-serif;
   color: #F37748;
-  max-width: 800px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
-
 body .nav {
   display: flex;
   justify-content: space-around;
   background-color: #FFFBF7;
 }
-
 body .nav .links {
   display: flex;
   text-decoration: none;
   justify-content: space-around;
 }
-
 body .nav .links a {
   margin-right: 60px;
   font-size: 1.5rem;
   margin-top: 7%;
   text-decoration: none;
 }
-
 body h1 {
   font-size: 1.8rem;
 }
-
 body i {
   color: #F37748;
 }
-
 body hr {
   margin-top: 10%;
   margin-bottom: 10%;
 }
-
 body .sign-up {
   display: flex;
   flex-direction: row;
@@ -181,35 +167,29 @@ body .sign-up {
   margin-bottom: 10%;
   padding-top: 20px;
 }
-
 body .sign-up .sign-up-left {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-
 body .sign-up .sign-up-right {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-
 body .sign-up .sign-up-right .signup-form input {
   margin-bottom: 18%;
   margin-top: 5%;
 }
-
 body .sign-up .sign-up-right .signup-form h1 {
   margin-bottom: 17%;
 }
-
 body .info {
   display: flex;
   flex-direction: row;
   text-align: center;
   margin-bottom: 10%;
 }
-
 body .info .info-left {
   display: flex;
   flex-direction: column;
@@ -218,17 +198,14 @@ body .info .info-left {
   width: 100%;
   margin-right: 8%;
 }
-
 body .info .info-left .info-left-title {
   margin-bottom: 10%;
   margin-top: 10%;
 }
-
 body .info .info-left .info-left-text {
   margin-bottom: 10%;
   padding: 10%;
 }
-
 body .info .info-mid {
   display: flex;
   flex-direction: column;
@@ -236,17 +213,14 @@ body .info .info-mid {
   border-width: medium;
   width: 100%;
 }
-
 body .info .info-mid .info-mid-title {
   margin-bottom: 10%;
   margin-top: 10%;
 }
-
 body .info .info-mid .info-mid-text {
   margin-bottom: 10%;
   padding: 10%;
 }
-
 body .info .info-right {
   display: flex;
   flex-direction: column;
@@ -255,24 +229,20 @@ body .info .info-right {
   width: 100%;
   margin-left: 8%;
 }
-
 body .info .info-right .info-right-title {
   margin-bottom: 10%;
   margin-top: 10%;
 }
-
 body .info .info-right .info-right-text {
   margin-bottom: 10%;
   padding: 10%;
 }
-
 body .products {
   display: flex;
   flex-direction: row;
   text-align: center;
   margin-bottom: 10%;
 }
-
 body .products .products-left {
   display: flex;
   flex-direction: column;
@@ -281,17 +251,14 @@ body .products .products-left {
   width: 100%;
   margin-right: 8%;
 }
-
 body .products .products-left .products-left-title {
   margin-bottom: 10%;
   margin-top: 10%;
 }
-
 body .products .products-left .products-left-text {
   margin-bottom: 10%;
   padding: 10%;
 }
-
 body .products .products-mid {
   display: flex;
   flex-direction: column;
@@ -299,17 +266,14 @@ body .products .products-mid {
   border-width: medium;
   width: 100%;
 }
-
 body .products .products-mid .products-mid-title {
   margin-bottom: 10%;
   margin-top: 10%;
 }
-
 body .products .products-mid .products-mid-text {
   margin-bottom: 10%;
   padding: 10%;
 }
-
 body .products .products-right {
   display: flex;
   flex-direction: column;
@@ -318,24 +282,20 @@ body .products .products-right {
   width: 100%;
   margin-left: 8%;
 }
-
 body .products .products-right .products-right-title {
   margin-bottom: 10%;
   margin-top: 10%;
 }
-
 body .products .products-right .products-right-text {
   margin-bottom: 10%;
   padding: 10%;
 }
-
 .slider {
   position: relative;
   overflow: hidden;
-  height: 50vh;
+  height: 65vh;
   width: 100%;
 }
-
 .slider .slide {
   position: absolute;
   top: 0;
@@ -346,7 +306,6 @@ body .products .products-right .products-right-text {
   transition: opacity 0.4s ease-in-out;
   color: white;
 }
-
 .slider .slide .content {
   position: absolute;
   bottom: 70px;
@@ -357,33 +316,27 @@ body .products .products-right .products-right-text {
   color: #333;
   padding: 35px;
 }
-
 .slider .slide .content h1 {
   margin-bottom: 10px;
 }
-
 .slide.current {
   opacity: 1;
 }
-
 .slide.current .content {
   opacity: 1;
   transform: translateX(600px);
   transition: all 0.7s ease-in-out 0.3s;
 }
-
 button#next {
   position: absolute;
   top: 33%;
   right: 48%;
 }
-
 button#prev {
   position: absolute;
   top: 33.25%;
   left: 32.25%;
 }
-
 button {
   border: 2px solid white;
   background-color: transparent;
@@ -393,36 +346,29 @@ button {
   border-radius: 50%;
   outline: none;
 }
-
 button:hover {
   background-color: white;
   color: #333;
 }
-
 @media (max-width: 500px) {
   .slide .content {
     bottom: -300px;
     left: 0;
     width: 100%;
   }
-
   .slide.current .content {
     transform: translateY(-300px);
   }
 }
-
 .slide:first-child {
   background: url('/images/buynow.jpg') center center / cover;
 }
-
 .slide:nth-child(2) {
   background: url('/images/mewtwo.jpg') no-repeat center top / cover;
 }
-
 .slide:nth-child(3) {
   background: url('/images/dragon.jpg') no-repeat center top / cover;
 }
-
 .slide:nth-child(4) {
   background: url('/images/Kingdom_Hearts_TSSF_box_art.jpg') no-repeat center top / cover;
 }
