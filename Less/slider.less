@@ -4,6 +4,17 @@
     height: 65vh;
     width: 100%;
 
+    @media(max-width: 800px) {
+        height: 80%;
+    }
+
+    @media(max-width: 500px) {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
     .slide {
         position: absolute;
         top: 0;
@@ -14,6 +25,9 @@
         transition: opacity 0.4s ease-in-out;
         color: white;
 
+
+
+
         .content {
             position: absolute;
             bottom: 70px;
@@ -23,6 +37,7 @@
             background-color: rgba(255, 255, 255, 0.8);
             color: #333;
             padding: 35px;
+
 
             h1 {
                 margin-bottom: 10px;
@@ -42,15 +57,35 @@
 }
 
 button#next {
-    position: absolute;
-    top: 38%;
-    right: 47.7%;
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+    margin-top: 10px;
+    border-radius: 20%;
+
+    @media(max-width: 500px) {
+        margin-right: 0%;
+        font-size: 2.6rem;
+    }
+
 }
 
 button#prev {
-    position: absolute;
-    top: 38.5%;
-    left: 24%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20%;
+    font-size: 4rem;
+    margin-right: 72%;
+    margin-top: 10px;
+
+    @media(max-width: 800px) {
+        margin-right: 47%;
+    }
+
+    @media(max-width: 500px) {
+        margin-right: 40%;
+        font-size: 2.6rem;
+    }
 }
 
 button {
@@ -61,6 +96,18 @@ button {
     padding: 15px 15px;
     border-radius: 50%;
     outline: none;
+
+    @media(max-width: 500px) {
+        font-size: 1.2rem;
+    }
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 button:hover {

@@ -1,0 +1,139 @@
+body {
+    @media(max-width: 800px) {
+        background-color: red;
+
+    }
+
+    @media(max-width: 500px) {
+        background-color: green;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border-style: solid;
+        border-width: medium;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.6rem
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10%;
+        margin-left: 10%;
+
+        @media(max-width: 800px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media(max-width: 500px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 20%;
+        margin-left: 20%;
+
+        .krisli-text {
+            h2 {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .dustin-text {
+            h2 {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+        @media(max-width: 800px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+
+    img {
+        width: 18rem;
+    }
+
+    .contact-form {
+
+        margin-left: 25rem;
+        margin-bottom: 10rem;
+        font-size: 1.4rem;
+
+        @media(max-width: 800px) {
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            margin-left: 15rem;
+        }
+        @media(max-width: 500px) {
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            margin-left: 9.5rem;
+        }
+
+     
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 50%;
+            align-content: center;
+
+            
+
+          
+        }
+
+        input {
+            margin-bottom: 10%;
+            margin-top: 2rem;
+            height: 30px;
+            margin-bottom: 4rem;
+
+            @media(max-width: 500px) {
+               
+            }
+    
+
+        }
+
+        textarea[type="help"] {
+            margin-top: 2rem;
+        }
+
+        .submit-contact {
+            margin-top: 3rem;
+
+            .contact-button {
+                font-size: 2rem;
+            }
+        }
+    }
+}
