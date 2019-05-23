@@ -150,6 +150,10 @@ body .nav .links a {
   margin-top: 7%;
   text-decoration: none;
 }
+body p {
+  font-size: 1.4em;
+  line-height: 1.4;
+}
 body h1 {
   font-size: 1.8rem;
 }
@@ -178,11 +182,12 @@ body .sign-up .sign-up-right {
   width: 50%;
 }
 body .sign-up .sign-up-right .signup-form input {
-  margin-bottom: 18%;
-  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-top: 3%;
+  height: 30px;
 }
 body .sign-up .sign-up-right .signup-form h1 {
-  margin-bottom: 17%;
+  margin-bottom: 7%;
 }
 body .info {
   display: flex;
@@ -197,9 +202,10 @@ body .info .info-left {
   border-width: medium;
   width: 100%;
   margin-right: 8%;
+  background-color: #202B31;
 }
 body .info .info-left .info-left-title {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   margin-top: 10%;
 }
 body .info .info-left .info-left-text {
@@ -212,9 +218,10 @@ body .info .info-mid {
   border-style: solid;
   border-width: medium;
   width: 100%;
+  background-color: #202B31;
 }
 body .info .info-mid .info-mid-title {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   margin-top: 10%;
 }
 body .info .info-mid .info-mid-text {
@@ -228,9 +235,10 @@ body .info .info-right {
   border-width: medium;
   width: 100%;
   margin-left: 8%;
+  background-color: #202B31;
 }
 body .info .info-right .info-right-title {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   margin-top: 10%;
 }
 body .info .info-right .info-right-text {
@@ -250,9 +258,10 @@ body .products .products-left {
   border-width: medium;
   width: 100%;
   margin-right: 8%;
+  background-color: #202B31;
 }
 body .products .products-left .products-left-title {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   margin-top: 10%;
 }
 body .products .products-left .products-left-text {
@@ -265,9 +274,10 @@ body .products .products-mid {
   border-style: solid;
   border-width: medium;
   width: 100%;
+  background-color: #202B31;
 }
 body .products .products-mid .products-mid-title {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   margin-top: 10%;
 }
 body .products .products-mid .products-mid-text {
@@ -281,9 +291,10 @@ body .products .products-right {
   border-width: medium;
   width: 100%;
   margin-left: 8%;
+  background-color: #202B31;
 }
 body .products .products-right .products-right-title {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   margin-top: 10%;
 }
 body .products .products-right .products-right-text {
@@ -329,13 +340,13 @@ body .products .products-right .products-right-text {
 }
 button#next {
   position: absolute;
-  top: 33%;
-  right: 48%;
+  top: 38%;
+  right: 47.7%;
 }
 button#prev {
   position: absolute;
-  top: 33.25%;
-  left: 32.25%;
+  top: 38.5%;
+  left: 24%;
 }
 button {
   border: 2px solid white;
