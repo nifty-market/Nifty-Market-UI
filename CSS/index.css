@@ -181,6 +181,11 @@ body .sign-up .sign-up-right {
   flex-direction: column;
   width: 50%;
 }
+body .sign-up .sign-up-right .signup-form .terms {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 body .sign-up .sign-up-right .signup-form input {
   margin-bottom: 10%;
   margin-top: 3%;
