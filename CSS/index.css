@@ -137,7 +137,16 @@ body {
 body .nav {
   display: flex;
   justify-content: space-around;
-  background-color: #FFFBF7;
+  background-color: #F37748;
+}
+body .nav img {
+  width: 12rem;
+  margin-top: 10px;
+}
+@media (max-width: 800px) {
+  body .nav img {
+    width: 70%;
+  }
 }
 @media (max-width: 500px) {
   body .nav img {
@@ -152,13 +161,15 @@ body .nav .links {
 body .nav .links a {
   margin-right: 60px;
   font-size: 1.5rem;
-  margin-top: 7%;
+  margin-top: 3rem;
   text-decoration: none;
+  color: white;
 }
 @media (max-width: 500px) {
   body .nav .links a {
-    font-size: 1rem;
-    margin-right: 30%;
+    font-size: 1.3rem;
+    padding-right: 1rem;
+    margin: 2rem auto;
   }
 }
 body p {
@@ -241,6 +252,11 @@ body .sign-up .sign-up-right .signup-form .terms {
     text-align: center;
   }
 }
+@media (max-width: 500px) {
+  body .sign-up .sign-up-right .signup-form p {
+    font-size: 1rem;
+  }
+}
 body .sign-up .sign-up-right .signup-form input {
   margin-bottom: 10%;
   margin-top: 3%;
@@ -255,6 +271,7 @@ body .sign-up .sign-up-right .signup-form input {
 }
 body .sign-up .sign-up-right .signup-form h1 {
   margin-bottom: 7%;
+  margin-top: 0;
 }
 @media (max-width: 500px) {
   body .sign-up .sign-up-right .signup-form h1 {
@@ -263,13 +280,23 @@ body .sign-up .sign-up-right .signup-form h1 {
     align-content: center;
     justify-content: center;
     text-align: center;
+    font-size: 2rem;
   }
+}
+body .sign-up .sign-up-right .signup-form b {
+  font-size: 1.5rem;
+}
+body .sign-up .sign-up-right .signup-form button {
+  font-size: 2rem;
 }
 body .info {
   display: flex;
   flex-direction: row;
   text-align: center;
   margin-bottom: 10%;
+}
+body .info h1 {
+  color: white;
 }
 @media (max-width: 500px) {
   body .info {
@@ -295,13 +322,18 @@ body .info .info-left {
   margin-right: 8%;
   background-color: #202B31;
 }
+@media (max-width: 500px) {
+  body .info .info-left {
+    margin-bottom: 2rem;
+  }
+}
 body .info .info-left .info-left-title {
   margin-bottom: 4%;
   margin-top: 10%;
 }
 body .info .info-left .info-left-text {
   margin-bottom: 10%;
-  padding: 10%;
+  padding: 3%;
 }
 body .info .info-mid {
   display: flex;
@@ -311,13 +343,18 @@ body .info .info-mid {
   width: 100%;
   background-color: #202B31;
 }
+@media (max-width: 500px) {
+  body .info .info-mid {
+    margin-bottom: 2rem;
+  }
+}
 body .info .info-mid .info-mid-title {
   margin-bottom: 4%;
   margin-top: 10%;
 }
 body .info .info-mid .info-mid-text {
   margin-bottom: 10%;
-  padding: 10%;
+  padding: 3%;
 }
 body .info .info-right {
   display: flex;
@@ -344,13 +381,16 @@ body .info .info-right .info-right-title {
 }
 body .info .info-right .info-right-text {
   margin-bottom: 10%;
-  padding: 10%;
+  padding: 3%;
 }
 body .products {
   display: flex;
   flex-direction: row;
   text-align: center;
   margin-bottom: 10%;
+}
+body .products h1 {
+  color: white;
 }
 @media (max-width: 800px) {
   body .products {
@@ -376,13 +416,18 @@ body .products .products-left {
   margin-right: 8%;
   background-color: #202B31;
 }
+@media (max-width: 500px) {
+  body .products .products-left {
+    margin-bottom: 2rem;
+  }
+}
 body .products .products-left .products-left-title {
   margin-bottom: 4%;
   margin-top: 10%;
 }
 body .products .products-left .products-left-text {
   margin-bottom: 10%;
-  padding: 10%;
+  padding: 3%;
 }
 body .products .products-mid {
   display: flex;
@@ -392,13 +437,18 @@ body .products .products-mid {
   width: 100%;
   background-color: #202B31;
 }
+@media (max-width: 500px) {
+  body .products .products-mid {
+    margin-bottom: 2rem;
+  }
+}
 body .products .products-mid .products-mid-title {
   margin-bottom: 4%;
   margin-top: 10%;
 }
 body .products .products-mid .products-mid-text {
   margin-bottom: 10%;
-  padding: 10%;
+  padding: 3%;
 }
 body .products .products-right {
   display: flex;
@@ -425,7 +475,7 @@ body .products .products-right .products-right-title {
 }
 body .products .products-right .products-right-text {
   margin-bottom: 10%;
-  padding: 10%;
+  padding: 3%;
 }
 .slider {
   position: relative;
@@ -553,22 +603,17 @@ button:hover {
 .slide:nth-child(4) {
   background: url('/images/Kingdom_Hearts_TSSF_box_art.jpg') no-repeat center top / cover;
 }
-@media (max-width: 800px) {
-  body {
-    background-color: red;
-  }
-}
-@media (max-width: 500px) {
-  body {
-    background-color: green;
-  }
-}
 body h1 {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+body .sizeMe h1 {
   border-style: solid;
   border-width: medium;
+  color: white;
+  border-color: #F37748;
+  padding: 1rem;
 }
 body h2 {
   text-align: center;
@@ -620,6 +665,7 @@ body .row2 .dustin-text h2 {
 }
 body img {
   width: 18rem;
+  margin-top: 10px;
 }
 body .contact-form {
   margin-left: 25rem;
