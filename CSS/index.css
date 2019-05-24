@@ -666,6 +666,7 @@ body .row2 .dustin-text h2 {
 body img {
   width: 18rem;
   margin-top: 10px;
+  border-radius: 2rem;
 }
 body .contact-form {
   margin-left: 25rem;
